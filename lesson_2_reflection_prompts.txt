@@ -1,32 +1,32 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-Initialise repository - start tracking changes. Neet to initialise before can commit, see logs, track changes.
+	Initialise repository - start tracking changes. Neet to initialise before can commit, see logs, track changes.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-Working directory -> staging area -> repository. Staging area allows you to choose which files you want to track for a certain commit. This way don't have to commit entire working directory files in single commit.
+	Working directory -> staging area -> repository. Staging area allows you to choose which files you want to track for a certain commit. This way don't have to commit entire working directory files in single commit.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
-
+	Only add files with the one logical change to the staging area, then do a single commit.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
-
+	Branches are helpful to try out code that wouldn't affect the main branch code. Or can create different branches for each user.
 
 How do the diagrams help you visualize the branch structure?
 
-
+	Can see the branches flow, parent commits, shared parents, whether any commits are detached.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-
+	Merging two branches -> keep the changes made by each branch. Represent using the graph because each commit will refer to parent, and the merge will have parents from each branch.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
 
-
+	Automatic merging: pros-don't have to review code, cons-don't have control over edits/might have lines that should be changed. Manual merging: pros-total control over the merge result, cons-have to review all the line changes.
